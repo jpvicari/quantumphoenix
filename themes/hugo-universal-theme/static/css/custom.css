@@ -1,4 +1,16 @@
-/* your styles go here */
+header .navbar {
+  min-height: 145px; }
+  header .navbar .navbar-header .navbar-brand img {
+    max-width: 300px;
+    height: auto; }
+  header .navbar .navbar-collapse ul {
+    margin-top: 4rem; }
+    header .navbar .navbar-collapse ul li a {
+      text-decoration: none; }
+      header .navbar .navbar-collapse ul li a:hover {
+        background: none; }
+
+/*# sourceMappingURL=site.css.map */
 
 .box-image-text .image {
   min-height: 200px;
