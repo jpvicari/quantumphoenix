@@ -36,17 +36,7 @@
     <link href="{{ "css/style.default.css" | relURL}}" rel="stylesheet" id="theme-stylesheet">
   {{ end }}
   <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet" id="theme-stylesheet">
-<!--
-  {{ if .Site.IsServer }}
-    {{ $cssOpts := (dict "targetPath" "styles/site.css" "enableSourceMap" true ) }}
-    {{ $styles := resources.Get "scss/site.scss" | toCSS $cssOpts }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-  {{ else }}
-    {{ $cssOpts := (dict "targetPath" "styles/site.css" ) }}
-    {{ $styles := resources.Get "scss/site.scss" | toCSS $cssOpts | postCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  {{ end }}
--->
+
   <!-- Responsivity for older IE -->
   {{ `
     <!--[if lt IE 9]>
