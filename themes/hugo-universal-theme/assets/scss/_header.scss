@@ -1,0 +1,26 @@
+header {
+    .navbar {
+        min-height: 145px;
+        .navbar-header {
+            .navbar-brand {
+                img {
+                    max-width: 300px;
+                    height: auto;
+                }
+            }
+        }
+        .navbar-collapse {
+            ul {
+                margin-top: 4rem;
+                li {
+                    a {
+                        text-decoration: none;
+                        &:hover {
+                            background: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
