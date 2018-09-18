@@ -63,21 +63,18 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2018, Quantum Phoenix; all rights reserved."
+    about_us = "<p>Quantum Phoenix is a Disadvantaged Woman Owned Business, providing multi-faceted engineering, financial and utility management solutions to engage all levels of government in strategic, cost effective and comprehensive solutions to revitalize and sustain our nation's communities.</p>"
+    copyright = "Copyright (c) 2018, Quantum Phoenix, LLC; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/qp-logo1.png"
-    logo_small = "img/qp-logo1.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    logo = "img/qp-logo2.jpg"
+    logo_small = "img/qp-logo2.jpg"
+    address = """<p><strong>Quantum Phoenix, LLC</strong>
+        <br/>info@quantum-phoenix.com
+        <br/>123-456-7890
+        <br/><a href="/contact">Contact Us</a>
       </p>
       """
     latitude = "-12.043333"

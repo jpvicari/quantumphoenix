@@ -1,7 +1,10 @@
+body {
+  font-size: 16px; }
+
 header .navbar {
   min-height: 145px; }
   header .navbar .navbar-header .navbar-brand img {
-    max-width: 300px;
+    max-width: 380px;
     height: auto; }
   header .navbar .navbar-collapse ul {
     margin-top: 4rem; }
@@ -10,13 +13,16 @@ header .navbar {
       header .navbar .navbar-collapse ul li a:hover {
         background: none; }
 
-/*# sourceMappingURL=site.css.map */
-
-.box-image-text .image {
-  min-height: 200px;
-  max-height: 200px;
-}
-
 .box-simple {
-  min-height: 230px;
-}
+  margin-bottom: 75px; }
+  .box-simple h3 {
+    font-size: 1.3em;
+    margin-top: 0; }
+  .box-simple hr {
+    width: 60%;
+    border-top: 1px solid #e9732f; }
+  .box-simple p {
+    line-height: 1.7; }
+
+#copyright {
+  padding: 25px 0; }

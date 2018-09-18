@@ -131,7 +131,7 @@ div.section {
   line-height: 80px;
   border-radius: 40px;
   border: solid 1px #fff;
-  font-size: 20px;
+  font-size: 32px;
 }
 .icon.icon-lg {
   font-size: 30px;
@@ -1143,7 +1143,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
-  background: url('../img/people.jpg') center center repeat;
+  background: url('../img/bg.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1160,8 +1160,8 @@ fieldset[disabled] .btn-template-primary.active {
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .home-carousel .owl-theme .owl-controls .owl-page span {
   background: #666;
@@ -1752,7 +1752,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: #e9732f;
-  padding: 60px 0;
+  padding: 50px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
