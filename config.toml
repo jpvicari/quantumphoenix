@@ -18,24 +18,14 @@ paginate = 10
 
 [[menu.main]]
     name = "Home"
-    url  = "#"
+    url  = "/"
     weight = 1
-
-[[menu.main]]
-    name = "Team"
-    url  = "#"
-    weight = 2
 
 [[menu.main]]
     name = "Services"
     identifier = "services"
-    url  = "#"
-    weight = 3
-
-[[menu.main]]
-    name = "Capability Statement"
-    url  = "#"
-    weight = 4
+    url  = "/services"
+    weight = 2
 
 
 [params]

@@ -15,6 +15,9 @@ header {
                 li {
                     a {
                         text-decoration: none;
+                        &.active {
+                            border-top: solid 5px #e9732f;
+                        }
                         &:hover {
                             background: none;
                         }

@@ -20,6 +20,7 @@
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
+                  {{ $section := .Section }}
                   {{ range .Site.Menus.main }}
                   <li class="dropdown">
                     {{ if .HasChildren }}
@@ -30,7 +31,7 @@
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a class="{{ if eq $section (trim .URL "/") }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}
