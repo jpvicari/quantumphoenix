@@ -63,7 +63,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Cage Code: 86D94</p>
+    text = """<p>Cage Code: 86D94</p>
       </p>
       """
 
