@@ -16,17 +16,6 @@ paginate = 10
 
 # Main menu
 
-[[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Services"
-    identifier = "services"
-    url  = "/services"
-    weight = 2
-
 
 [params]
     viewMorePostLink = "/blog/"
@@ -62,9 +51,7 @@ paginate = 10
     logo = "img/qp-logo2.jpg"
     logo_small = "img/qp-logo2.jpg"
     address = """<p><strong>Quantum Phoenix, LLC</strong>
-        <br/>info@quantum-phoenix.com
-        <br/>123-456-7890
-        <br/><a href="/contact">Contact Us</a>
+        <br/>(814) 777-5056
       </p>
       """
     latitude = "-12.043333"
@@ -76,7 +63,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Cage Code: xxxxx | WBE Cert: xxxxxx | SB Cert: xxxxx</p>
+    text = """<p class="hidden-sm hidden-xs">Cage Code: 86D94</p>
       </p>
       """
 
